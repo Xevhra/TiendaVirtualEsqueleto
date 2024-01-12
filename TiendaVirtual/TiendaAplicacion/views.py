@@ -2,6 +2,9 @@ from django.shortcuts import render
 from django.urls import reverse_lazy
 from django.views.generic import ListView, DetailView, UpdateView, CreateView, DeleteView
 from .models import *
+from django.shortcuts import render, get_list_or_404, redirect, get_object_or_404
+from django.http import HttpResponse
+
 
 # Create your views here.
 
